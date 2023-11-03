@@ -1,3 +1,72 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.image-cat{
+  width:100px;
+  height:100px;
+
+}
+.image-cat img{
+  width:100%;
+  height:100;
+}
+/*===============*/
+.signup1{
+  background-image:url('../public/Image/f4.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  
+}
+Link{
+  text-decoration:none;
+  list-style:none
+}
+a{
+  text-decoration:none;
+}
+.image{
+  
+  /* object-fit:cover; */
+}
+.image img{
+  width:100%;
+  object-fit:none;
+}
+/* .left-side{
+  background-image:url('../public/Image/f4.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+} */
+.form-title h3{
+  font-size:30px;
+  font-weight:500;
+}
+.form-title p{
+  font-size:16px;
+  font-weight:700;
+}
+.form-area label{
+  margin-bottom:7px;
+  font-size:14px;
+  font-weight:bold;
+  color:green;
+}
+.form-area input{
+  width:70%;
+  /* margin:7px; */
+  /* margin-top:7px; */
+  margin:auto 0;
+  padding:6px;
+  border:none;
+  outline:none;
+  border-radius:10px;
+  margin-bottom:10px;
+  /* border:0.5px solid green; */
+}
 .App {
   text-align: center;
 }
@@ -6,33 +75,76 @@
   height: 40vmin;
   pointer-events: none;
 }
+.slickk-arrow{
+  color:black;
+  background:red;
+}
+.slick-prev{
+  z-index:100;
+  left: 20px !important;
+}
+.slick-next{
+  z-index:100;
+  right:20px !important;
+}
+.shop-image{
+  height:200px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  width:300px;
+}
+.shop-image img{
+  height:100%;
+  width:100%;
+  object-fit:fill;
+}
+.food-title h4{
+  font-size:18px;
+  font-weight:500
+}
+.food-title h3{
+  font-size:30px;
+  color:crimson;
+
+}
+.food-title p{
+  font-size:15px;
+}
+.warning{
+  position:absolute;
+  top:10%;
+  right:0;
+  height:45px;
+  width:15%;
+  text-align:center;
+  background:crimson;
+  color:white;
+  padding:5px;
+  border-radius:10px;
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
 }
+
+@media only screen and (max-width: 370px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+
+
